@@ -1,6 +1,6 @@
 # Companier
 
-Deployed at: https://oshrahartuv.github.io/run-ai/
+Deployed at: https://oshrahartuv.github.io/company-management/
 
 Companier is an app that allows companies management in two main areas: departments and employees.
 
