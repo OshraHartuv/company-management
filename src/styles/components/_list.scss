@@ -1,0 +1,37 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    
+    table {
+        th,
+        td {
+            padding: 0 10px;
+            border-collapse: collapse;
+            border: 1px solid $clr3;
+            text-align: left;
+            border-spacing: 0px;
+
+            &.dep{
+                @media screen and (max-width:370px){
+                    display: none;
+                }
+            }
+        }
+        td {
+            &.actions {
+                width: em(150px);
+                text-align: center;
+                .el-dropdown {
+                    vertical-align: unset;
+                    width: 100%;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    .el-dropdown-link{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

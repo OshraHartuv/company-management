@@ -1,0 +1,45 @@
+.btn {
+    &.add-btn {
+        @include btn(regular, $clr2, $clr5, em(7.5px) em(10.5px));
+    }
+    &.confirm-btn {
+        @include btn(regular, $clr2, $clr5, em(7.5px) em(10.5px));
+    }
+    &.cancel-btn {
+        @include btn(regular, $clr3, $clr5, em(7.5px) em(10.5px));
+    }
+    line-height: 2;
+    align-self: center;
+    margin-bottom: 15px;
+    width: em(200px);
+    justify-content: center;
+    line-height: 2;
+    > * {
+        color: $clr5;
+        text-decoration: none;
+        height: min-content;
+        line-height: 2;
+    }
+}
+
+// .edit-modal{
+//     display:flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap:15px;
+//     h3{
+//         text-decoration: underline;
+//     }
+//     .edit-modal-form{
+//         gap:15px;
+//         display:flex;
+//         flex-direction: column;
+//         align-items: left;
+//         button{
+//         justify-content: center;
+
+//             @include btn(regular,  $clr2,$clr5, em(7.5px) em(10.5px));
+//         }
+
+//     }
+// }

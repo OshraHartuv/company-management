@@ -1,0 +1,21 @@
+.app-header {
+    background-color: $clr1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    @media screen and (max-width: 450px){
+        font-size: 10px;
+        gap: 20px;
+    }
+        
+    
+    nav {
+ 
+        > * {
+            font-size: em(40px);
+            color: $clr5;
+            text-decoration: none;
+        }
+    }
+}
